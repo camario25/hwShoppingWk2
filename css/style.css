@@ -9,9 +9,10 @@ header {
 }
 .groceryButtons button {
   background-color: #a0faff;
-  width: 20em;
+  width: 15em;
   height: 7em;
   margin: 0 1em 0 1em;
+  font-size: 1em;
 }
 body {
   display: flex;
@@ -39,7 +40,6 @@ img {
 
 .essentialPics {
   display: flex;
-  /* justify-content: center; */
 
 }
 .essentialPics .photosRight{
@@ -50,6 +50,9 @@ img {
 }
 .drinkPics {
   display: flex;
+}
+.drinkPics .photosRight{
+  flex-grow: .5;
 }
 .topLeft {
   text-align: center;
@@ -65,4 +68,20 @@ img {
 }
 aside {
   text-align: center;
+}
+
+/* effects */
+
+img:hover {
+  opacity: .7;
+}
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+button:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+  border: solid 3px;
+  background-color: #bafaff;
 }
