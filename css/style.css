@@ -41,7 +41,7 @@ img {
 }
 
 .essentialPics {
-  display: flex;
+  display: none;
 
 }
 .essentialPics .photosRight{
@@ -51,7 +51,7 @@ img {
   flex-grow: .5;
 }
 .drinkPics {
-  display: flex;
+  display: none;
 }
 .drinkPics .photosRight{
   flex-grow: .5;
