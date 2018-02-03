@@ -1,6 +1,7 @@
 header {
   text-align: center;
   background-color: #a0faff;
+  font-family: "Lato:400", "Verdana", sans-serif;
 }
 .groceryButtons {
   background-color: #e8af48;
@@ -17,6 +18,7 @@ header {
 body {
   display: flex;
   justify-content: space-around;
+  font-family: "Lato:400", "Verdana", sans-serif;
 }
 .leftHalf {
   width: 66.6%;
