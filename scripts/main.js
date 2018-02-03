@@ -59,7 +59,7 @@ if (essentialPics.display = flex) {
 if (drinkPics.display = flex) {
   
   };
-};
+});
 topRight.addEventListener('click', function () {
   if (greenPics.display = flex) {
     
@@ -72,7 +72,7 @@ topRight.addEventListener('click', function () {
   if (drinkPics.display = flex) {
     
   };
-};
+});
 bottomLeft.addEventListener('click', function () {
   if (greenPics.display = flex) {
     
@@ -85,7 +85,7 @@ bottomLeft.addEventListener('click', function () {
   if (drinkPics.display = flex) {
     
   };
-};
+});
 bottomRight.addEventListener('click', function () {
   if (greenPics.display = flex) {
     
@@ -98,6 +98,6 @@ bottomRight.addEventListener('click', function () {
   if (drinkPics.display = flex) {
     
   };
-};
+});
 };
 
