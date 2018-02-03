@@ -8,3 +8,7 @@ body {
 .rightHalf {
   width: 33.3%;
 }
+img {
+    width:  40%;
+    height: 80%;
+}
