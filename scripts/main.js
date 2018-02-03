@@ -1,4 +1,8 @@
+/* This is a Test area to see if JS is connected to website*/
 console.log('Hello');
+debugger
+document.querySelector("aside").color = "red";//should change "Shopping List" letters to color red
+/*End of test*/
 
 var greensButton = document.getElementById("orgGreens");
 var essenButton = document.getElementById("essentials");
@@ -35,69 +39,69 @@ bevButton.addEventListener('click', function (){
 //         elem.attr( "target", "_blank" );
 //     }
 // });
-var inventory = ["Lacinato Kale", "Red Russian Kale", "Collards", "Micro Greens",
- "Quinoa", "Red Quinoa", "Green Tortillas", "Kimchi",
-"Cold-Brew Coffee", "Kombucha", "Green Drink", "Red Drink"]
-
-var shoppingList = []
-
-var topLeft = document.querySelector(".topLeft");
-var topRight = document.querySelector(".topRight");
-var bottomLeft = document.querySelector(".bottomLeft");
-var bottomRight =document.querySelector(".topRight");
-
-function pushToShoppingArray (){
-  topLeft.addEventListener('click', function () {
-if (greenPics.display = flex) {
-  
-};
-
-if (essentialPics.display = flex) {
-  
-};
-
-if (drinkPics.display = flex) {
-  
-  };
-});
-topRight.addEventListener('click', function () {
-  if (greenPics.display = flex) {
-    
-  };
-
-  if (essentialPics.display = flex) {
-    
-  };
-
-  if (drinkPics.display = flex) {
-    
-  };
-});
-bottomLeft.addEventListener('click', function () {
-  if (greenPics.display = flex) {
-    
-  };
-
-  if (essentialPics.display = flex) {
-    
-  };
-
-  if (drinkPics.display = flex) {
-    
-  };
-});
-bottomRight.addEventListener('click', function () {
-  if (greenPics.display = flex) {
-    
-  };
-
-  if (essentialPics.display = flex) {
-    
-  };
-
-  if (drinkPics.display = flex) {
-    
-  };
-});
-};
+// var inventory = ["Lacinato Kale", "Red Russian Kale", "Collards", "Micro Greens",
+//  "Quinoa", "Red Quinoa", "Green Tortillas", "Kimchi",
+// "Cold-Brew Coffee", "Kombucha", "Green Drink", "Red Drink"]
+// 
+// var shoppingList = []
+// 
+// var topLeft = document.querySelector(".topLeft");
+// var topRight = document.querySelector(".topRight");
+// var bottomLeft = document.querySelector(".bottomLeft");
+// var bottomRight =document.querySelector(".topRight");
+// 
+// function pushToShoppingArray (){
+//   topLeft.addEventListener('click', function () {
+// if (greenPics.display = flex) {
+// 
+// };
+// 
+// if (essentialPics.display = flex) {
+// 
+// };
+// 
+// if (drinkPics.display = flex) {
+// 
+//   };
+// });
+// topRight.addEventListener('click', function () {
+//   if (greenPics.display = flex) {
+// 
+//   };
+// 
+//   if (essentialPics.display = flex) {
+// 
+//   };
+// 
+//   if (drinkPics.display = flex) {
+// 
+//   };
+// });
+// bottomLeft.addEventListener('click', function () {
+//   if (greenPics.display = flex) {
+// 
+//   };
+// 
+//   if (essentialPics.display = flex) {
+// 
+//   };
+// 
+//   if (drinkPics.display = flex) {
+// 
+//   };
+// });
+// bottomRight.addEventListener('click', function () {
+//   if (greenPics.display = flex) {
+// 
+//   };
+// 
+//   if (essentialPics.display = flex) {
+// 
+//   };
+// 
+//   if (drinkPics.display = flex) {
+// 
+//   };
+// });
+// };
 
