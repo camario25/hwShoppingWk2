@@ -1,3 +1,18 @@
+header {
+  text-align: center;
+  background-color: #a0faff;
+}
+.groceryButtons {
+  background-color: #e8af48;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.groceryButtons button {
+  background-color: #a0faff;
+  width: 20em;
+  height: 7em;
+  margin: 0 1em 0 1em;
+}
 body {
   display: flex;
   justify-content: space-around;
@@ -9,6 +24,45 @@ body {
   width: 33.3%;
 }
 img {
-    width:  40%;
-    height: 80%;
+    width:  75%;
+    height: 100%;
+}
+.photosLeft{
+
+}
+.photosRight {
+
+}
+.greenPics {
+  display: flex;
+}
+
+.essentialPics {
+  display: flex;
+  /* justify-content: center; */
+
+}
+.essentialPics .photosRight{
+  flex-grow: .5;
+}
+.essentialPics .photosLeft{
+  flex-grow: .5;
+}
+.drinkPics {
+  display: flex;
+}
+.topLeft {
+  text-align: center;
+}
+.bottomLeft {
+  text-align: center;
+}
+.topRight {
+  text-align: center;
+}
+.bottomRight {
+  text-align: center;
+}
+aside {
+  text-align: center;
 }
