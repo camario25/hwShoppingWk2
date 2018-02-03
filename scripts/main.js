@@ -35,3 +35,25 @@ bevButton.addEventListener('click', function (event){
 //         elem.attr( "target", "_blank" );
 //     }
 // });
+var inventory = ["Lacinato Kale", "Red Russian Kale", "Collards", "Micro Greens",
+ "Quinoa", "Red Quinoa", "Green Tortillas", "Kimchi",
+"Cold-Brew Coffee", "Kombucha", "Green Drink", "Red Drink"]
+
+var shoppingList = []
+
+var topLeft = document.querySelector(".topLeft");
+var topRight = document.querySelector(".topRight");
+var bottomLeft = document.querySelector(".bottomLeft");
+var bottomRight =document.querySelector(".topRight");
+
+if (greenPics.display = flex) {
+  
+}
+
+if (essentialPics.display = flex) {
+  
+}
+
+if (drinkPics.display = flex) {
+  
+}
