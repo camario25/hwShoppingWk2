@@ -37,7 +37,7 @@ img {
 
 }
 .greenPics {
-  display: flex;
+  display: none;
 }
 
 .essentialPics {
