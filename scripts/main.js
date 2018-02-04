@@ -1,6 +1,6 @@
 /* This is a Test area to see if JS is connected to website*/
 console.log('Hello');
-debugger
+
 //test1
 document.querySelector("aside").color = "red";//should change "Shopping List" letters to color red
 //Results changed the DOM but not the actual color on the screen
