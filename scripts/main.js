@@ -1,6 +1,16 @@
 /* This is a Test area to see if JS is connected to website*/
 console.log('Hello');
+debugger
+//test1
 document.querySelector("aside").color = "red";//should change "Shopping List" letters to color red
+//Results changed the DOM but not the actual color on the screen
+document.querySelector("aside").setAttribute("color", "red");
+//Still did not change color on the screen
+
+//test2
+var addFooter = document.createElement("footer");
+document.querySelector("body").appendChild(addFooter);
+//Results passed!  JS file able to alter the DOM as long as ther is no CSS involved
 /*End of test*/
 
 var greensButton = document.getElementById("orgGreens");
