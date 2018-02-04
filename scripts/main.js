@@ -39,69 +39,92 @@ bevButton.addEventListener('click', function (){
 //         elem.attr( "target", "_blank" );
 //     }
 // });
-// var inventory = ["Lacinato Kale", "Red Russian Kale", "Collards", "Micro Greens",
-//  "Quinoa", "Red Quinoa", "Green Tortillas", "Kimchi",
-// "Cold-Brew Coffee", "Kombucha", "Green Drink", "Red Drink"]
-// 
-// var shoppingList = []
-// 
-// var topLeft = document.querySelector(".topLeft");
-// var topRight = document.querySelector(".topRight");
-// var bottomLeft = document.querySelector(".bottomLeft");
-// var bottomRight =document.querySelector(".topRight");
-// 
-// function pushToShoppingArray (){
-//   topLeft.addEventListener('click', function () {
-// if (greenPics.display = flex) {
-// 
-// };
-// 
-// if (essentialPics.display = flex) {
-// 
-// };
-// 
-// if (drinkPics.display = flex) {
-// 
-//   };
-// });
-// topRight.addEventListener('click', function () {
-//   if (greenPics.display = flex) {
-// 
-//   };
-// 
-//   if (essentialPics.display = flex) {
-// 
-//   };
-// 
-//   if (drinkPics.display = flex) {
-// 
-//   };
-// });
-// bottomLeft.addEventListener('click', function () {
-//   if (greenPics.display = flex) {
-// 
-//   };
-// 
-//   if (essentialPics.display = flex) {
-// 
-//   };
-// 
-//   if (drinkPics.display = flex) {
-// 
-//   };
-// });
-// bottomRight.addEventListener('click', function () {
-//   if (greenPics.display = flex) {
-// 
-//   };
-// 
-//   if (essentialPics.display = flex) {
-// 
-//   };
-// 
-//   if (drinkPics.display = flex) {
-// 
-//   };
-// });
-// };
+var inventory = ["Lacinato Kale", "Red Russian Kale", "Collards", "Micro Greens",
+ "Quinoa", "Red Quinoa", "Green Tortillas", "Kimchi",
+"Cold-Brew Coffee", "Kombucha", "Green Drink", "Red Drink"]
+
+var shoppingListArray = []
+var shoppingList =document.querySelector("ul");
+
+var topLeft = document.querySelector(".topLeft");
+var topRight = document.querySelector(".topRight");
+var bottomLeft = document.querySelector(".bottomLeft");
+var bottomRight =document.querySelector(".topRight");
+
+function pushToShoppingArray (){
+  topLeft.addEventListener('click', function () {
+if (greenPics.display = flex) {
+  var listItem = document.createElement('li');
+  listItem.innerHTML = "";
+  shoppingList.appendChild(listItem)
+};
+else if (essentialPics.display = flex) {
+  var listItem = document.createElement('li');
+  listItem.innerHTML = "";
+  shoppingList.appendChild(listItem)
+};
+else if (drinkPics.display = flex) {
+  var listItem = document.createElement('li');
+  listItem.innerHTML = "";
+  shoppingList.appendChild(listItem)
+  };
+});
+topRight.addEventListener('click', function () {
+  if (greenPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (essentialPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (drinkPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+});
+bottomLeft.addEventListener('click', function () {
+  if (greenPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (essentialPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (drinkPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+});
+bottomRight.addEventListener('click', function () {
+  if (greenPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (essentialPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+  else if (drinkPics.display = flex) {
+    var listItem = document.createElement('li');
+    listItem.innerHTML = "";
+    shoppingList.appendChild(listItem)
+  };
+});
+};
+
+ var listItem = document.createElement('li');
+ listItem.innerHTML = "";
+ shoppingList.appendChild(listItem)
+ 
+ var listBtn = document.createElement('button');
 
