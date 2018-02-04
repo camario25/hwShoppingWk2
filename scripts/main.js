@@ -1,6 +1,5 @@
 /* This is a Test area to see if JS is connected to website*/
 console.log('Hello');
-debugger
 document.querySelector("aside").color = "red";//should change "Shopping List" letters to color red
 /*End of test*/
 
@@ -57,60 +56,60 @@ var bottomRight =document.querySelector(".topRight");
 if (greenPics.display === "flex") {
   listItem.textContent = "Lacinato Kale";
   shoppingList.appendChild(listItem);
-};
+}
 else if (essentialPics.display === "flex") {
   listItem.textContent = "Quinoa";
   shoppingList.appendChild(listItem);
-};
+}
 else if (drinkPics.display === "flex") {
   listItem.textContent = "Cold-Brew Coffee";
   shoppingList.appendChild(listItem);
-  };
+  }
 });
 topRight.addEventListener('click', function () {
     var listItem = document.createElement('li');
   if (greenPics.display === "flex") {
     listItem.textContent = "Red Russian Kale";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (essentialPics.display === "flex") {
     listItem.textContent = "Green Tortillas";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (drinkPics.display === "flex") {
     listItem.textContent = "Green Drink";
     shoppingList.appendChild(listItem);
-  };
+  }
 });
 bottomLeft.addEventListener('click', function () {
     var listItem = document.createElement('li');
   if (greenPics.display === "flex") {
     listItem.textContent = "Collards";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (essentialPics.display === "flex") {
     listItem.textContent = "Red Quinoa";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (drinkPics.display === "flex") {
     listItem.textContent = "Kombucha";
     shoppingList.appendChild(listItem);
-  };
+  }
 });
 bottomRight.addEventListener('click', function () {
     var listItem = document.createElement('li');
   if (greenPics.display === "flex") {
     listItem.textContent = "Micro Greens";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (essentialPics.display === "flex") {
     listItem.textContent = "Kimchi";
     shoppingList.appendChild(listItem);
-  };
+  }
   else if (drinkPics.display === "flex") {
     listItem.textContent = "Red Drink";
     shoppingList.appendChild(listItem);
-  };
+  }
 });
 
 var deleteButton = document.getElementById("deleteAll");
