@@ -55,68 +55,68 @@ var bottomRight =document.querySelector(".topRight");
   topLeft.addEventListener('click', function () {
 if (greenPics.display = flex) {
   var listItem = document.createElement('li');
-  listItem.textContent = "";
+  listItem.textContent = "Lacinato Kale";
   shoppingList.appendChild(listItem);
 };
 else if (essentialPics.display = flex) {
   var listItem = document.createElement('li');
-  listItem.textContent = "";
+  listItem.textContent = "Quinoa";
   shoppingList.appendChild(listItem);
 };
 else if (drinkPics.display = flex) {
   var listItem = document.createElement('li');
-  listItem.textContent = "";
+  listItem.textContent = "Cold-Brew Coffee";
   shoppingList.appendChild(listItem);
   };
 });
 topRight.addEventListener('click', function () {
   if (greenPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Red Russian Kale";
     shoppingList.appendChild(listItem);
   };
   else if (essentialPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Green Tortillas";
     shoppingList.appendChild(listItem);
   };
   else if (drinkPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Green Drink";
     shoppingList.appendChild(listItem);
   };
 });
 bottomLeft.addEventListener('click', function () {
   if (greenPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Collards";
     shoppingList.appendChild(listItem);
   };
   else if (essentialPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Red Quinoa";
     shoppingList.appendChild(listItem);
   };
   else if (drinkPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Kombucha";
     shoppingList.appendChild(listItem);
   };
 });
 bottomRight.addEventListener('click', function () {
   if (greenPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Micro Greens";
     shoppingList.appendChild(listItem);
   };
   else if (essentialPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Kimchi";
     shoppingList.appendChild(listItem);
   };
   else if (drinkPics.display = flex) {
     var listItem = document.createElement('li');
-    listItem.textContent = "";
+    listItem.textContent = "Red Drink";
     shoppingList.appendChild(listItem);
   };
 });
