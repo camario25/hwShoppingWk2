@@ -1,8 +1,11 @@
+
+
+
 /* This is a Test area to see if JS is connected to website*/
 console.log('Hello');
 
 //test1
-document.querySelector("aside").color = "red";//should change "Shopping List" letters to color red
+document.querySelector("aside").style.color = "red";//should change "Shopping List" letters to color red
 //Results changed the DOM but not the actual color on the screen
 document.querySelector("aside").setAttribute("color", "red");
 //Still did not change color on the screen
@@ -10,6 +13,7 @@ document.querySelector("aside").setAttribute("color", "red");
 //test2
 var addFooter = document.createElement("footer");
 document.querySelector("body").appendChild(addFooter);
+addFooter.textContent = "test words";
 //Results passed!  JS file able to alter the DOM as long as ther is no CSS involved
 /*End of test*/
 
@@ -22,22 +26,22 @@ var essentialPics = document.querySelector(".essentialPics");
 var drinkPics = document.querySelector(".drinkPics");
 
 greensButton.addEventListener('click', function (){
-    drinkPics.display = "none";
-    essentialPics.display = "none";
-    greenPics.display = "flex";
+    drinkPics.style.display = "none";
+    essentialPics.style.display = "none";
+    greenPics.style.display = "flex";
     console.log("click")
 });
 essenButton.addEventListener('click', function (){
-  drinkPics.display = "none";
-  greenPics.display = "none";
-  essentialPics.display = "flex";
+  drinkPics.style.display = "none";
+  greenPics.style.display = "none";
+  essentialPics.style.display = "flex";
   console.log("click")
 });
 
 bevButton.addEventListener('click', function (){
-  essentialPics.display = "none";
-  greenPics.display = "none";
-  drinkPics.display = "flex";
+  essentialPics.style.display = "none";
+  greenPics.style.display = "none";
+  drinkPics.style.display = "flex";
   console.log("click")
 });
 
@@ -66,6 +70,7 @@ var bottomRight =document.querySelector(".topRight");
 if (greenPics.display === "flex") {
   listItem.textContent = "Lacinato Kale";
   shoppingList.appendChild(listItem);
+  console.log('this kale works');
 }
 else if (essentialPics.display === "flex") {
   listItem.textContent = "Quinoa";
